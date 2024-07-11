@@ -1,0 +1,54 @@
+
+
+.wrapPage {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  gap: 1vh;
+  padding: 10px;
+  background-color: rgb(47, 47, 47);
+  margin-top: 50px;
+  z-index: -1;
+  
+}
+
+.mainBox
+{
+  display: flex ;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 30px;
+  margin: 30px;
+  
+}
+
+.rickBox{
+  display: flex ;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 30px;
+  margin: 30px;
+}
+
+#teste{
+  margin-bottom: 50px;
+}
+
+.MapBox{
+  position: absolute;
+  top: 50px;
+}
+
+.graph{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  flex-direction: column;
+  position: fixed;
+  top: 50px;
+}
+  
