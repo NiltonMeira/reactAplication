@@ -6,6 +6,7 @@ import {Prod} from "./routes/Prod.jsx"
 import {RickApi} from './routes/RickApi.jsx'
 import {Map} from './routes/Map.jsx'
 import { Graphics } from './routes/Graphics.jsx'
+import { Analytics } from "@vercel/analytics/react"
 
 import {
   createBrowserRouter,
@@ -37,6 +38,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
+    <Analytics />
     <RouterProvider router={router} />
   </>,
 )
